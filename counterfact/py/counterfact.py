@@ -13,7 +13,7 @@ class CounterFactDataset(Dataset):
         with open(Path(data_dir) / "distilgpt2_cf.json", "r") as f:
             self.data = json.load(f)
         # if size is not None:
-        self.data = self.data[:10]
+        # self.data = self.data[:10]
 
         print(f"Loaded dataset with {len(self)} elements")
 
