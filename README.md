@@ -29,7 +29,7 @@ python3 edit.py \
 
 To summarize results
 ```commandline
-python3 summarize.py  --dir_name=ROME --runs=run_008
+python3 summarize.py  --dir_name=ROME --runs=run_000
 ```
 For more details on causal tracing and knowledge editing, see: 
 
